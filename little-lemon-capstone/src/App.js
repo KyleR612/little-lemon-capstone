@@ -1,22 +1,12 @@
+import React from 'react'
 import './App.css';
+import Nav from './components/Nav'
 
 function App() {
   return (
     <>
-    <Header>
-<h1>Little Lemon Website</h1>
-    </Header>
-    <Nav>
-
-    </Nav>
-    <Main>
-
-    </Main>
-    <Footer>
-
-    </Footer>
+    <Nav/>
     </>
   );
 }
-<p>Hello</p>
 export default App;
