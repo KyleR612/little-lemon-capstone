@@ -3,9 +3,18 @@ import './App.css';
 function App() {
   return (
     <>
-    <header>
+    <Header>
 <h1>Little Lemon Website</h1>
-    </header>
+    </Header>
+    <Nav>
+
+    </Nav>
+    <Main>
+
+    </Main>
+    <Footer>
+
+    </Footer>
     </>
   );
 }
