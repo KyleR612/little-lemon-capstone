@@ -5,17 +5,17 @@ import logo from '../src/Images/little lemon logo.jpg';
 function Nav() {
     return (
         <nav>
-            <a href='/'></a>
-            <img src={logo} alt='little lemon logo'/>
+            <img src={logo} alt='little lemon logo' height='100' width='300'/>
 
-
-            <ul class="container">
-                <li><a href='/'>Home</a></li>
+            <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="/">Home</a></li>
                 <li><a href="/">About</a></li>
                 <li><a href="/">Services</a></li>
                 <li><a href="/">Menu</a></li>
                 <li><a href="/">Reservations</a></li>
             </ul>
+        </nav>
         </nav>
     );
 } 

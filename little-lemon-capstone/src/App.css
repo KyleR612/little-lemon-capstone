@@ -11,17 +11,33 @@ li {
   list-style-type: none;
 }
 
-#container {
-   display: grid;
-    grid-template-rows: auto 1fr auto;
-    grid-template-columns: 100%;
-    min-height: 10px;
+.navbar {
+  background-color: #333;
+  padding: 10px 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Aligns items horizontally */
+  justify-content: space-around; /* Optional: Adjust spacing */
+}
+
+.nav-list li {
+  margin: 0;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  transition: background-color 0.3s;
+}
+
+.nav-list a:hover {
+  background-color: #575757;
+  border-radius: 5px;
 }
 
 .App-header {
