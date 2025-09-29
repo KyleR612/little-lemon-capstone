@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../Images/little lemon logo.jpg';
+import logo from '../Images/little lemon logo';
 
 
 function Nav() {
