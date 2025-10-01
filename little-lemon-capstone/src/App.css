@@ -12,7 +12,6 @@ body {
   display: grid;
   grid-auto-flow: row;
   align-content: space-evenly;
-  grid-auto-flow: row | column | dense
 }
 
 li {
