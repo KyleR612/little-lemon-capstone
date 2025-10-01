@@ -7,6 +7,14 @@
   pointer-events: none;
 }
 
+body {
+  text-align: center;
+  display: grid;
+  grid-auto-flow: row;
+  align-content: space-evenly;
+  grid-auto-flow: row | column | dense
+}
+
 li {
   list-style-type: none;
 }
