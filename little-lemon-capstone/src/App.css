@@ -8,43 +8,48 @@
 }
 
 body {
-  text-align: center;
-  display: grid;
-  grid-auto-flow: row;
-  align-content: space-evenly;
+  width: 100%;
 }
 
-li {
-  list-style-type: none;
+.menu-icon {
+   display: none;
+   cursor: pointer;
 }
 
-.navbar {
-  background-color: #333;
-  padding: 10px 20px;
+.nav-links {
+  list-style: none; 
+  float: right;
+  margin-right: 20px;
 }
 
-.nav-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex; /* Aligns items horizontally */
-  justify-content: space-around; /* Optional: Adjust spacing */
+.nav-links.visible {
+  flex-direction: column;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 100%;
+  background-color: #495E57;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
 }
 
-.nav-list li {
-  margin: 0;
+nav li {
+  display: inline-block;
+  line-height: 0px;
+  margin: 0 15px;
 }
 
-.nav-list a {
-  text-decoration: none;
-  color: white;
-  padding: 10px 15px;
-  transition: background-color 0.3s;
+nav ul li a {
+color: #000;  
+font-size: 15px;
+border-radius: 3px;
 }
 
-.nav-list a:hover {
-  background-color: #575757;
-  border-radius: 5px;
+a.active,a:hover {
+  transition: .5s;
+  text-decoration: underline solid #495E57;
 }
 
 .App-header {

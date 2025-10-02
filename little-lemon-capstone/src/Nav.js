@@ -1,22 +1,49 @@
-import React from 'react';
 import logo from '../src/Images/little lemon logo.jpg';
+import React, { useState } from "react";
 
 
-function Nav() {
+const Nav = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    }
     return (
-        <nav>
-            <img src={logo} alt='little lemon logo' height='100' width='300'/>
+        <nav className={`navbar ${menuOpen ? "open" : ""}`}>
+            <a href="/" className="logo"> 
+            <img src={logo} alt='little lemon logo' height='70' width='200'/>
+            </a>
+            
+            {/* mobile navbar */}
+            <div className="menu-icon" onClick={toggleMenu}>
+                <div className="bar"></div>
+                <div className="bar"></div>
+                <div className="bar"></div>
+            </div>
+            
 
-            <nav class="navbar">
-            <ul class="nav-list">
-                <li><a href="/">Home</a></li>
-                <li><a href="/">About</a></li>
-                <li><a href="/">Services</a></li>
-                <li><a href="/">Menu</a></li>
-                <li><a href="/">Reservations</a></li>
+            {/* nav items */}
+            <ul className={`nav-links ${menuOpen ? "visible" : ""}`}>
+                <li>
+                <a class="active" href="/">Home</a>
+                </li>
+                <li>
+                    <a class="active" href="/">About</a>
+                </li>
+                <li>
+                    <a class="active" href="/">Services</a>
+                </li>
+                <li>
+                    <a class="active" href="/">Menu</a>
+                </li>
+                <li>
+                    <a class="active" href="/">Reservations</a>
+                </li>
+                <li>
+                    <a class="active" href="/">Order Online</a>
+                </li>
             </ul>
-        </nav>
-        </nav>
+        </nav>    
     );
 } 
 
