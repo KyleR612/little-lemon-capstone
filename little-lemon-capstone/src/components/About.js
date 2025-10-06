@@ -1,8 +1,14 @@
 import React from 'react';
 import App from '../App.js';
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from '../Header.js';
 
-<p>Testing</p>
 
-export default About;
+
+export default function() {
+    return(
+        <>
+        <Header />
+        </>
+    )
+}

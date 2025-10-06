@@ -6,6 +6,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Main from './Main';
 import Index from './index';
+import OrderOnline from './components/OrderOnline';
 
 function App() {
   return (
@@ -15,6 +16,11 @@ function App() {
    <Footer />
    <Main />
    <Index />
+   <Reservations />
+   <Services />
+   <OrderOnline />
+   <Home />
+   <About />
    </>
    
   );
