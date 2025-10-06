@@ -1,14 +1,8 @@
-import React from 'react';
-import App from '../App.js';
-import './App.css';
-import Header from '../Header.js';
+import React, { useState } from "react";
+
+const OrderOnline = () => {
+
+};
 
 
-
-export default function() {
-    return(
-        <>
-        <Header />
-        </>
-    )
-}
+export default OrderOnline;
