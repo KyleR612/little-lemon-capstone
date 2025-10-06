@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import bannerImg from '..src/Images/little lemon banner.jpg';
+import bannerImg from '../src/Images/little lemon banner.jpg';
 
 const Header = () => {
     return(
@@ -14,8 +14,8 @@ const Header = () => {
                      <Link to="/booking"><button aria-label='Onclick'>Reserve Table</button></Link>
                 </div>
 
-                <div>
-                    <img src={bannerImg} alt='little lemon bagger' />
+                <div className='banner-img'>
+                    <img src={bannerImg} alt='little lemon banner' />
                 </div>
             </section>
         </header>
