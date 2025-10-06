@@ -1,18 +1,22 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Nav from './Nav';
 import Header from './Header';
-import Main from './Main';
 import Footer from './Footer';
+import Main from './Main';
+import Index from './index';
 
 function App() {
   return (
-    <div>
-    <Nav/>
-    <Header/>
-    <Main/>
-    <Footer/>
-    </div>
+   <>
+   <Nav />
+   <Header />
+   <Footer />
+   <Main />
+   <Index />
+   </>
+   
   );
 }
 export default App;
