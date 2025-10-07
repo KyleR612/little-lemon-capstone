@@ -1,8 +1,8 @@
 import React, { useReducer } from 'react';
 import { Routes, Route, useNavigate } from 'react-router-dom';
-import Header from './Header';
 import Booking from './BookingPage';
 import ConfirmedBooking from './ConfirmedBooking';
+import Header from './Header';
 
 const Main = () => {
 
@@ -43,7 +43,7 @@ const Main = () => {
     const navigate = useNavigate();
     function submitForm (formData) {
         if(submitAPI(formData)){
-            navigate("confirmed");
+            navigate("/confirmed");
         }
     }
 
