@@ -92,6 +92,15 @@ button {
    margin-left: 50px;
 }
 
+.btnReceive input{
+  padding: 12px 16px;
+  margin-top: 20px;
+  background: #495E57;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
 .banner-img{
    position: absolute;
    right: 13%;
