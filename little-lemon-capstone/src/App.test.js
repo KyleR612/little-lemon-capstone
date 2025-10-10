@@ -1,8 +1,10 @@
 import { render, screen } from "@testing-library/react";
 import BookingForm from './BookingForm';
 
-test('Renders the BookingForm heading', () => {
-    render(<BookingForm />);
-    const headingElement = screen.getByText("Book Now");
-    expect(headingElement).toBeInTheDocument();
-})
+test(
+    <select id='book-occasion' key={occasion} value={occasion} onChange={(e) => setOccasion(e.target.value)} required>
+                     <option>Birthday</option>
+                     <option>Anniversary</option>
+                     <option>Engagement</option>
+                  </select>
+)

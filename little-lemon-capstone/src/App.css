@@ -114,6 +114,33 @@ button {
   border-radius: 20px;
 }
 
+.orderbtn{
+  padding: 5px 12px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.menu-container {
+  margin: 110px auto;
+  padding: 10px 13%;
+}
+
+.menu-container h2 {
+  color: #000;
+}
+
+.menu-header {
+  padding: 10px 13%;
+}
+
+.menu-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .App-link {
   color: #61dafb;
 }
