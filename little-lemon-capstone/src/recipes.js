@@ -3,7 +3,7 @@ const recipes = [
         id: 1,
         title: "Greek Salad",
         price: 12.99,
-        image: "little-lemon-capstone/little-lemon-capstone/src/Images/greek salad.jpg",
+        image: "",
         description: "The famous greek salad filled with cripsy lettuce, peppers, olives and a Chicago style fetta cheese, garnished with crunchy garlic and rosemary croutons."
     },
     {
