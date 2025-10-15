@@ -129,6 +129,16 @@ button {
   color: #000;
 }
 
+.img-box {
+  margin: 110px auto;
+  padding: 10px 13%;
+}
+
+.img-box1 {
+  margin: 50px auto;
+  padding: 10px 13%;
+}
+
 .menu-container {
   margin: 110px auto;
   padding: 10px 13%;
