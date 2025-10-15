@@ -114,11 +114,19 @@ button {
   border-radius: 20px;
 }
 
+.txt-box {
+  color: #000;
+}
+
 .orderbtn{
   padding: 5px 12px;
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: 600;
+}
+
+#special-font {
+  color: #000;
 }
 
 .menu-container {

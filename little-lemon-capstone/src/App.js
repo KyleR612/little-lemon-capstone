@@ -3,10 +3,9 @@ import './App.css';
 import Nav from './Nav';
 import Main from './Main';
 import Footer from './Footer';
-import Services from './Services';
 import Home from './Home';
-import OrderOnline from './OrderOnline';
 import Menu from './Menu';
+import Recipes from './recipes';
 
 function App() {
   return (
@@ -14,10 +13,9 @@ function App() {
     <Nav />
     <Main />
     <Footer />
-    <Services />
     <Home />
-    <OrderOnline />
     <Menu />
+    <Recipes />
     </>
   );
 }

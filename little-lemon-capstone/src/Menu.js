@@ -1,5 +1,5 @@
 import React from 'react';
-import recipes from './recipes';
+
 
 const Menu = () => {
     return(
@@ -8,21 +8,7 @@ const Menu = () => {
             <h2>This weeks specials!</h2>
             <button className="orderbtn">Order Menu</button>
           </div>
-
-          {/* menu cards */}
-          <div>
-            {
-                recipes.map(recipe => <div key={recipe.id}>
-                    <img src={recipe.image} alt=''/>
-                    <div>
-                        <div>
-                            <h5>{recipe.title}</h5>
-                        </div>
-                    </div>
-                </div>)
-            }
           </div>
-      </div>
     );
 };
 

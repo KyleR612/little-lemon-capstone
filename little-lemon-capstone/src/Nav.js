@@ -1,6 +1,6 @@
 import logo from '../src/Images/little lemon logo.jpg';
 import React, { useState } from "react";
-import {Route, Routes} from 'react-router-dom'
+
 
 const Nav = () => {
     const [menuOpen, setMenuOpen] = useState(false);
