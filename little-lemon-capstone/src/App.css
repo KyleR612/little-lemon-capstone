@@ -1,28 +1,23 @@
-.App {
+.App{
   text-align: center;
 }
-
-.App-logo {
+.App-logo{
   height: 10vmin;
   pointer-events: none;
 }
-
-body {
+body{
   width: 100%;
 }
-
-.menu-icon {
+.menu-icon{
    display: none;
    cursor: pointer;
 }
-
-.nav-links {
+.nav-links{
   list-style: none; 
   float: right;
   margin-right: 20px;
 }
-
-.nav-links.visible {
+.nav-links.visible{
   flex-direction: column;
   position: absolute;
   top: 40px;
@@ -34,25 +29,21 @@ body {
   align-items: center;
   transition: all 0.3s ease-in-out;
 }
-
-nav li {
+nav li{
   display: inline-block;
   line-height: 0px;
   margin: 0 15px;
 }
-
-nav ul li a {
+nav ul li a{
 color: #000;  
 font-size: 15px;
 border-radius: 3px;
 }
-
-a.active,a:hover {
+a.active,a:hover{
   transition: .5s;
   text-decoration: underline solid #495E57;
 }
-
-.App-header {
+.App-header{
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -62,36 +53,31 @@ a.active,a:hover {
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.header {
+.header{
    background-color: rgb(84, 122, 102);
    height: 350px;
    text-align: left;
    font-size: 20px;
 } 
 
-
-h2 {
+h2{
   color: gold;
   margin-left: 50px;
   font-size: 30px;
 }
-
-h3, p {
+h3, p{
   color: white;
   margin: 50px;
-  max-width: 800px;
+  max-width: 700px;
 }
-
-button {
+button{
    background-color: gold;
    border-radius: 5px;
    color: black;
    font-size: 20px;
-   margin: 20px;
+   margin: 10px;
    margin-left: 50px;
 }
-
 .btnReceive input{
   padding: 12px 16px;
   margin-top: 20px;
@@ -100,70 +86,131 @@ button {
   border: none;
   border-radius: 4px;
 }
-
 .banner-img{
    position: absolute;
    right: 13%;
    top: 15%;
    width: 400px;
 }
-
-.banner-img img {
+.banner-img img{
   width: 100%;
   height: 400px;
   border-radius: 20px;
 }
-
-.txt-box {
-  color: #000;
-}
-
 .orderbtn{
   padding: 5px 12px;
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: 600;
 }
-
-#special-font {
+.special-font{
   color: #000;
+  margin-left: 5px;
 }
-
-.img-box {
+.delivery-btn{
+  margin-left: 5px;
+  margin-top: 50px;
+}
+.card{
+  display: flex;
+  justify-content: center;
+}
+.food-list{
+  width: 70%;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.box{
+  width: 280px;
+  height: 500px;
+  border-radius: 9px;
+  overflow: hidden;
+  box-shadow: 1px 1px 4px dimgray;
+}
+.box .img-box{
+  height: 50%;
+}
+.box .img-box img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.box .txt-box{
+  height: 30%;
+}
+.box .txt-box h1{
+  font-size: 20px;
+  padding: 3px;
+  height: 0px;
+}
+.menu-container{
   margin: 110px auto;
   padding: 10px 13%;
 }
 
-.img-box1 {
-  margin: 50px auto;
-  padding: 10px 13%;
-}
-
-.menu-container {
-  margin: 110px auto;
-  padding: 10px 13%;
-}
-
-.menu-container h2 {
+.menu-container h2{
   color: #000;
 }
-
-.menu-header {
+.menu-header{
   padding: 10px 13%;
 }
-
 .menu-header{
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
-
-.App-link {
+.logo{
+  width: 200px;
+  height: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.footer-p{
+  color: #000;
+}
+.important-links{
+  color: #000;
+  text-align: right;
+  margin-left: 700px;
+  margin-top: -190px;
+}
+.footer-li{
+  color: #000;
+  text-align: left;
+  margin-left: 1215px;
+  margin-bottom: 50px;
+  list-style-type: none;
+}
+.contact{
+  color: #000;
+  text-align: left;
+  list-style-type: none;
+  margin-top: -300px;
+}
+.address{
+  color: #000;
+  list-style-type: none;
+}
+.social{
+  color: #000;
+  text-align: left;
+  list-style-type: none;
+  margin-top: -225px;
+  margin-left: 500px;
+}
+.media{
+  color: #000;
+  text-align: left;
+  list-style-type: none;
+  margin-left: 500px;
+  list-style-type: none;
+}
+.App-link{
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
+@keyframes App-logo-spin{
   from {
     transform: rotate(0deg);
   }

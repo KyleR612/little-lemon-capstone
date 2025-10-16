@@ -6,7 +6,7 @@ const Menu = () => {
         <div className='menu-container'>
           <div className='menu-header'>
             <h2>This weeks specials!</h2>
-            <button className="orderbtn">Order Menu</button>
+            <button className="orderbtn">Online Menu</button>
           </div>
           </div>
     );
